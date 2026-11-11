@@ -32,8 +32,18 @@ Additional robotics hardware will be determined in Stage 2.
 
 ### Task 3: First AI Task
 - Planned task: Image classification
-- Status: Pending
 
+I successfully ran the MobileNetV2 image classification demo on the D-Robotics RDK X5 using RDKOS 3.5.0 (Ubuntu 22.04).
+
+The model executed using BPU core 0 and classified the sample image as a **zebra with 99.36% confidence**.
+
+**Command used:**
+```bash
+cd /app/pydev_demo/01_classification_sample/02_mobilenetv2
+python3 mobilenetv2.py
+```
+
+**Result:** Successful on-device AI inference.
 ## Setup Instructions
 
 To be documented after successful board setup.
